@@ -57,7 +57,9 @@ Below is a sample setup containing all the hardware required. A PWM motor contro
 
 # Troubleshoot
 ### CANifier or Gamepad not recognized?
-This may be due to having mismatched device ID's to the software. Users have two options. They may change the device ID to match the software or provide the correct device ID within bgin.vi. 
+This may be due to having mismatched device ID's to the software. Users have two options. They may change the device ID to match the software or provide the correct device ID within begin.vi.
+
+#### In the image below, CANifier is being constructed with device ID of 0
 ![alt text][code 6]
 
 
