@@ -125,6 +125,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Teleop Arcade Drive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/Teleop Arcade Drive.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -156,37 +157,36 @@ AddOutputFilter chunkFilter
 				<Item Name="Convert String to NT String Array Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT String Array Buffer.vi"/>
 				<Item Name="Convert String to NT String Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT String Buffer.vi"/>
 				<Item Name="Create Actual Table Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Create Actual Table Name.vi"/>
-				<Item Name="CTRE_CANTalonSRX_ChangeMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_ChangeMode.vi"/>
-				<Item Name="CTRE_CANTalonSRX_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_ControlMode.ctl"/>
-				<Item Name="CTRE_CANTalonSRX_FeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_FeedbackSelect.ctl"/>
-				<Item Name="CTRE_CANTalonSRX_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_GetDevRefData.vi"/>
-				<Item Name="CTRE_CANTalonSRX_GetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_GetOutput.vi"/>
-				<Item Name="CTRE_CANTalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_Open.vi"/>
-				<Item Name="CTRE_CANTalonSRX_Params.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_Params.ctl"/>
-				<Item Name="CTRE_CANTalonSRX_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_RefNumRegistrySet.vi"/>
-				<Item Name="CTRE_CANTalonSRX_SetParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_SetParameter.vi"/>
-				<Item Name="CTRE_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_SetReference.vi"/>
-				<Item Name="CTRE_CANTalonSRX_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_SetSensorPosition.vi"/>
-				<Item Name="CTRE_CANTalonSRX_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_UpdateRefNum.vi"/>
-				<Item Name="CTRE_CANTalonSRX_UpdateUsage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_UpdateUsage.vi"/>
-				<Item Name="CTRE_CANTalonSRX_UsageTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_UsageTypes.ctl"/>
-				<Item Name="CTRE_Create_SensoredGearbox.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearbox.vi"/>
-				<Item Name="CTRE_Create_SensoredGearboxDouble.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearboxDouble.vi"/>
-				<Item Name="CTRE_Create_SensoredGearboxQuad.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearboxQuad.vi"/>
-				<Item Name="CTRE_Create_SensoredGearboxSingle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearboxSingle.vi"/>
-				<Item Name="CTRE_Create_SensoredGearboxTriple.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearboxTriple.vi"/>
-				<Item Name="CTRE_Create_SensoredTank.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredTank.vi"/>
-				<Item Name="CTRE_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/CTRE_ErrorHandle.vi"/>
-				<Item Name="CTRE_Gearbox_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Gearbox_Set.vi"/>
-				<Item Name="CTRE_Logger_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Logger_Open.vi"/>
-				<Item Name="CTRE_Mecanum_Servo_Straight_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Mecanum_Servo_Straight_Imu.vi"/>
-				<Item Name="CTRE_Mecanum_Servo_Turn_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Mecanum_Servo_Turn_Imu.vi"/>
-				<Item Name="CTRE_Mecanum_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Mecanum_Set.vi"/>
+				<Item Name="CTRE_CANTalonSRX_ChangeMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_ChangeMode.vi"/>
+				<Item Name="CTRE_CANTalonSRX_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_ControlMode.ctl"/>
+				<Item Name="CTRE_CANTalonSRX_FeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_FeedbackSelect.ctl"/>
+				<Item Name="CTRE_CANTalonSRX_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_GetDevRefData.vi"/>
+				<Item Name="CTRE_CANTalonSRX_GetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_GetOutput.vi"/>
+				<Item Name="CTRE_CANTalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_Open.vi"/>
+				<Item Name="CTRE_CANTalonSRX_Params.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_Params.ctl"/>
+				<Item Name="CTRE_CANTalonSRX_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_RefNumRegistrySet.vi"/>
+				<Item Name="CTRE_CANTalonSRX_SetParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_SetParameter.vi"/>
+				<Item Name="CTRE_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_SetReference.vi"/>
+				<Item Name="CTRE_CANTalonSRX_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_SetSensorPosition.vi"/>
+				<Item Name="CTRE_CANTalonSRX_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_UpdateRefNum.vi"/>
+				<Item Name="CTRE_CANTalonSRX_UpdateUsage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_UpdateUsage.vi"/>
+				<Item Name="CTRE_CANTalonSRX_UsageTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_CANTalonSRX_UsageTypes.ctl"/>
+				<Item Name="CTRE_Create_SensoredGearbox.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearbox.vi"/>
+				<Item Name="CTRE_Create_SensoredGearboxDouble.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearboxDouble.vi"/>
+				<Item Name="CTRE_Create_SensoredGearboxQuad.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearboxQuad.vi"/>
+				<Item Name="CTRE_Create_SensoredGearboxSingle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearboxSingle.vi"/>
+				<Item Name="CTRE_Create_SensoredGearboxTriple.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredGearboxTriple.vi"/>
+				<Item Name="CTRE_Create_SensoredTank.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Create_SensoredTank.vi"/>
+				<Item Name="CTRE_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/CTRE_ErrorHandle.vi"/>
+				<Item Name="CTRE_Gearbox_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Gearbox_Set.vi"/>
+				<Item Name="CTRE_Logger_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Logger_Open.vi"/>
+				<Item Name="CTRE_Mecanum_Servo_Straight_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Mecanum_Servo_Straight_Imu.vi"/>
+				<Item Name="CTRE_Mecanum_Servo_Turn_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Mecanum_Servo_Turn_Imu.vi"/>
+				<Item Name="CTRE_Mecanum_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Mecanum_Set.vi"/>
+				<Item Name="CTRE_PID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_PID.vi"/>
 				<Item Name="CTRE_PigeonIMU_CalibrationMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_CalibrationMode.ctl"/>
 				<Item Name="CTRE_PigeonIMU_ConnectionType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_ConnectionType.ctl"/>
-				<Item Name="CTRE_PigeonIMU_ConnectionType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/PigeonIMU/CTRE_PigeonIMU_ConnectionType.ctl"/>
 				<Item Name="CTRE_PigeonIMU_DeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_DeviceRef.ctl"/>
-				<Item Name="CTRE_PigeonIMU_DeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/PigeonIMU/CTRE_PigeonIMU_DeviceRef.ctl"/>
 				<Item Name="CTRE_PigeonIMU_Get6DQuaternion.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_Get6DQuaternion.vi"/>
 				<Item Name="CTRE_PigeonIMU_GetAccelerometerAngles.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_GetAccelerometerAngles.vi"/>
 				<Item Name="CTRE_PigeonIMU_GetAccumGyro.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_GetAccumGyro.vi"/>
@@ -211,58 +211,57 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_PigeonIMU_TareType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_TareType.ctl"/>
 				<Item Name="CTRE_PigeonIMU_UpdateUsage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_UpdateUsage.vi"/>
 				<Item Name="CTRE_PigeonIMU_UsageTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/Pigeon IMU/CTRE_PigeonIMU_UsageTypes.ctl"/>
-				<Item Name="CTRE_PigeonIMU_UsageTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/PigeonIMU/CTRE_PigeonIMU_UsageTypes.ctl"/>
-				<Item Name="CTRE_SensoredGearbox_GetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredGearbox_GetPosition.vi"/>
-				<Item Name="CTRE_SensoredGearbox_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredGearbox_Set.vi"/>
-				<Item Name="CTRE_SensoredGearbox_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredGearbox_SetSensorPosition.vi"/>
-				<Item Name="CTRE_SensoredMecanum_GetHeading.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_GetHeading.vi"/>
-				<Item Name="CTRE_SensoredMecanum_GetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_GetPosition.vi"/>
-				<Item Name="CTRE_SensoredMecanum_GetVelocity.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_GetVelocity.vi"/>
-				<Item Name="CTRE_SensoredMecanum_Servo_Straight.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Straight.vi"/>
-				<Item Name="CTRE_SensoredMecanum_Servo_Straight_Distance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Straight_Distance.vi"/>
-				<Item Name="CTRE_SensoredMecanum_Servo_Straight_Distance_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Straight_Distance_Imu.vi"/>
-				<Item Name="CTRE_SensoredMecanum_Servo_Straight_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Straight_Imu.vi"/>
-				<Item Name="CTRE_SensoredMecanum_Servo_Turn.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Turn.vi"/>
-				<Item Name="CTRE_SensoredMecanum_Servo_Turn_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Turn_Imu.vi"/>
-				<Item Name="CTRE_SensoredMecanum_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Set.vi"/>
-				<Item Name="CTRE_SensoredTank_GetHeading.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_GetHeading.vi"/>
-				<Item Name="CTRE_SensoredTank_GetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_GetPosition.vi"/>
-				<Item Name="CTRE_SensoredTank_GetVelocity.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_GetVelocity.vi"/>
-				<Item Name="CTRE_SensoredTank_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_RefNumRegistryGet.vi"/>
-				<Item Name="CTRE_SensoredTank_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_RefNumRegistrySet.vi"/>
-				<Item Name="CTRE_SensoredTank_Servo_Straight.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Straight.vi"/>
-				<Item Name="CTRE_SensoredTank_Servo_Straight_Distance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Straight_Distance.vi"/>
-				<Item Name="CTRE_SensoredTank_Servo_Straight_Distance_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Straight_Distance_Imu.vi"/>
-				<Item Name="CTRE_SensoredTank_Servo_Straight_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Straight_Imu.vi"/>
-				<Item Name="CTRE_SensoredTank_Servo_Turn.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Turn.vi"/>
-				<Item Name="CTRE_SensoredTank_Servo_Turn_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Turn_Imu.vi"/>
-				<Item Name="CTRE_SensoredTank_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Set.vi"/>
-				<Item Name="CTRE_SensoredTank_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_SetSensorPosition.vi"/>
-				<Item Name="CTRE_ServoBlock_All.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_All.vi"/>
-				<Item Name="CTRE_ServoBlock_Mecanum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_Mecanum.vi"/>
-				<Item Name="CTRE_ServoBlock_MecanumStraightImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_MecanumStraightImu.vi"/>
-				<Item Name="CTRE_ServoBlock_MecanumTurnImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_MecanumTurnImu.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartMecanum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanum.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartMecanumDistance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumDistance.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartMecanumDistanceImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumDistanceImu.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartMecanumStraight.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumStraight.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartMecanumStraightImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumStraightImu.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartMecanumTurn.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumTurn.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartMecanumTurnImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumTurnImu.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartTank.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTank.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartTankStraight.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankStraight.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartTankStraightDistance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankStraightDistance.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartTankStraightDistanceImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankStraightDistanceImu.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartTankStraightImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankStraightImu.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartTankTurn.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankTurn.vi"/>
-				<Item Name="CTRE_ServoBlock_SmartTankTurnImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankTurnImu.vi"/>
-				<Item Name="CTRE_ServoBlock_Tank.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_Tank.vi"/>
-				<Item Name="CTRE_ServoBlock_TankStraightImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_TankStraightImu.vi"/>
-				<Item Name="CTRE_ServoBlock_TankTurnImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_TankTurnImu.vi"/>
-				<Item Name="CTRE_ServoBlock_Wait.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_Wait.vi"/>
-				<Item Name="CTRE_Tank_Servo_Straight_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Tank_Servo_Straight_Imu.vi"/>
-				<Item Name="CTRE_Tank_Servo_Turn_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Tank_Servo_Turn_Imu.vi"/>
-				<Item Name="CTRE_Tank_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Tank_Set.vi"/>
+				<Item Name="CTRE_SensoredGearbox_GetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredGearbox_GetPosition.vi"/>
+				<Item Name="CTRE_SensoredGearbox_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredGearbox_Set.vi"/>
+				<Item Name="CTRE_SensoredGearbox_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredGearbox_SetSensorPosition.vi"/>
+				<Item Name="CTRE_SensoredMecanum_GetHeading.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_GetHeading.vi"/>
+				<Item Name="CTRE_SensoredMecanum_GetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_GetPosition.vi"/>
+				<Item Name="CTRE_SensoredMecanum_GetVelocity.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_GetVelocity.vi"/>
+				<Item Name="CTRE_SensoredMecanum_Servo_Straight.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Straight.vi"/>
+				<Item Name="CTRE_SensoredMecanum_Servo_Straight_Distance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Straight_Distance.vi"/>
+				<Item Name="CTRE_SensoredMecanum_Servo_Straight_Distance_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Straight_Distance_Imu.vi"/>
+				<Item Name="CTRE_SensoredMecanum_Servo_Straight_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Straight_Imu.vi"/>
+				<Item Name="CTRE_SensoredMecanum_Servo_Turn.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Turn.vi"/>
+				<Item Name="CTRE_SensoredMecanum_Servo_Turn_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Servo_Turn_Imu.vi"/>
+				<Item Name="CTRE_SensoredMecanum_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredMecanum_Set.vi"/>
+				<Item Name="CTRE_SensoredTank_GetHeading.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_GetHeading.vi"/>
+				<Item Name="CTRE_SensoredTank_GetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_GetPosition.vi"/>
+				<Item Name="CTRE_SensoredTank_GetVelocity.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_GetVelocity.vi"/>
+				<Item Name="CTRE_SensoredTank_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_RefNumRegistryGet.vi"/>
+				<Item Name="CTRE_SensoredTank_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_RefNumRegistrySet.vi"/>
+				<Item Name="CTRE_SensoredTank_Servo_Straight.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Straight.vi"/>
+				<Item Name="CTRE_SensoredTank_Servo_Straight_Distance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Straight_Distance.vi"/>
+				<Item Name="CTRE_SensoredTank_Servo_Straight_Distance_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Straight_Distance_Imu.vi"/>
+				<Item Name="CTRE_SensoredTank_Servo_Straight_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Straight_Imu.vi"/>
+				<Item Name="CTRE_SensoredTank_Servo_Turn.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Turn.vi"/>
+				<Item Name="CTRE_SensoredTank_Servo_Turn_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Servo_Turn_Imu.vi"/>
+				<Item Name="CTRE_SensoredTank_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_Set.vi"/>
+				<Item Name="CTRE_SensoredTank_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_SensoredTank_SetSensorPosition.vi"/>
+				<Item Name="CTRE_ServoBlock_All.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_All.vi"/>
+				<Item Name="CTRE_ServoBlock_Mecanum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_Mecanum.vi"/>
+				<Item Name="CTRE_ServoBlock_MecanumStraightImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_MecanumStraightImu.vi"/>
+				<Item Name="CTRE_ServoBlock_MecanumTurnImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_MecanumTurnImu.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartMecanum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanum.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartMecanumDistance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumDistance.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartMecanumDistanceImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumDistanceImu.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartMecanumStraight.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumStraight.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartMecanumStraightImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumStraightImu.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartMecanumTurn.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumTurn.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartMecanumTurnImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartMecanumTurnImu.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartTank.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTank.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartTankStraight.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankStraight.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartTankStraightDistance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankStraightDistance.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartTankStraightDistanceImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankStraightDistanceImu.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartTankStraightImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankStraightImu.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartTankTurn.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankTurn.vi"/>
+				<Item Name="CTRE_ServoBlock_SmartTankTurnImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_SmartTankTurnImu.vi"/>
+				<Item Name="CTRE_ServoBlock_Tank.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_Tank.vi"/>
+				<Item Name="CTRE_ServoBlock_TankStraightImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_TankStraightImu.vi"/>
+				<Item Name="CTRE_ServoBlock_TankTurnImu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_TankTurnImu.vi"/>
+				<Item Name="CTRE_ServoBlock_Wait.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_ServoBlock_Wait.vi"/>
+				<Item Name="CTRE_Tank_Servo_Straight_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Tank_Servo_Straight_Imu.vi"/>
+				<Item Name="CTRE_Tank_Servo_Turn_Imu.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Tank_Servo_Turn_Imu.vi"/>
+				<Item Name="CTRE_Tank_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/CTRE_Tank_Set.vi"/>
 				<Item Name="Decode String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Decode String Array.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -289,7 +288,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_SystemGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemGet.vi"/>
 				<Item Name="FPGA_SystemOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemOpen.vi"/>
 				<Item Name="FPGA_SystemStart Async Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemStart Async Agent.vi"/>
-				<Item Name="Gearbox.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/Gearbox.ctl"/>
+				<Item Name="Gearbox.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/Gearbox.ctl"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="Handle Dirty Elements.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Dirty Elements.vi"/>
 				<Item Name="Handle Dirty Fields for a Connection.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Dirty Fields for a Connection.vi"/>
@@ -310,7 +309,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
 				<Item Name="Manage Connection List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Connection List.vi"/>
 				<Item Name="Manage Dirty Field ID List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Dirty Field ID List.vi"/>
-				<Item Name="Mecanum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/Mecanum.ctl"/>
+				<Item Name="Mecanum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/Mecanum.ctl"/>
 				<Item Name="NetComm_AllianceStation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_AllianceStation.ctl"/>
 				<Item Name="NetComm_CAN_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Receive.vi"/>
 				<Item Name="NetComm_ControlWord.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ControlWord.ctl"/>
@@ -358,7 +357,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Parse Persisted Bool Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Parse Persisted Bool Array.vi"/>
 				<Item Name="Parse Persisted Num Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Parse Persisted Num Array.vi"/>
 				<Item Name="Persist Variables.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Persist Variables.vi"/>
-				<Item Name="PID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/PID.vi"/>
 				<Item Name="Prepare Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Prepare Pattern.vi"/>
 				<Item Name="Process one Action.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Process one Action.vi"/>
 				<Item Name="Protocol Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Protocol Operations.ctl"/>
@@ -370,19 +368,19 @@ AddOutputFilter chunkFilter
 				<Item Name="Safe Image Get Image.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/Safe Image Get Image.vi"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="SensoredGearbox.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/SensoredGearbox.ctl"/>
-				<Item Name="SensoredMecanum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/SensoredMecanum.ctl"/>
-				<Item Name="SensoredTank.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/SensoredTank.ctl"/>
+				<Item Name="SensoredGearbox.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/SensoredGearbox.ctl"/>
+				<Item Name="SensoredMecanum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/SensoredMecanum.ctl"/>
+				<Item Name="SensoredTank.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/SensoredTank.ctl"/>
 				<Item Name="Sequence.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Sequence.ctl"/>
-				<Item Name="ServoParams.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/ServoParams.ctl"/>
+				<Item Name="ServoParams.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/ServoParams.ctl"/>
 				<Item Name="Skip to RPC Outputs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Skip to RPC Outputs.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="spi_bus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spi_bus.ctl"/>
 				<Item Name="String Matches Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/String Matches Pattern.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Table Manager.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Table Manager.vi"/>
-				<Item Name="TalonSRXDevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/TalonSRXDevRefData.ctl"/>
-				<Item Name="Tank.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/Framework/Tank.ctl"/>
+				<Item Name="TalonSRXDevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/TalonSRXDevRefData.ctl"/>
+				<Item Name="Tank.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/Framework/Tank.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
@@ -471,10 +469,10 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CameraWait for Raw Image String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraWait for Raw Image String.vi"/>
 				<Item Name="WPI_CameraWhite Balance Values.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraWhite Balance Values.ctl"/>
 				<Item Name="WPI_CameraWhiteBalanceConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/WPI_CameraWhiteBalanceConstants.vi"/>
-				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
-				<Item Name="WPI_CANTalonSRX_CallbackSetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/WPI_CANTalonSRX_CallbackSetOutput.vi"/>
-				<Item Name="WPI_CANTalonSRX_Disable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/WPI_CANTalonSRX_Disable.vi"/>
-				<Item Name="WPI_CANTalonSRX_Enable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/CTRLib-LV-TalonSRX/WPI_CANTalonSRX_Enable.vi"/>
+				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
+				<Item Name="WPI_CANTalonSRX_CallbackSetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/WPI_CANTalonSRX_CallbackSetOutput.vi"/>
+				<Item Name="WPI_CANTalonSRX_Disable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/WPI_CANTalonSRX_Disable.vi"/>
+				<Item Name="WPI_CANTalonSRX_Enable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CANMotor/CTRLib-LV-TalonSRX/WPI_CANTalonSRX_Enable.vi"/>
 				<Item Name="WPI_DefaultPWMConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_DefaultPWMConstants.vi"/>
 				<Item Name="WPI_DigitalModuleDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDeviceRef.ctl"/>
 				<Item Name="WPI_DigitalModuleGetPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleGetPWM.vi"/>
