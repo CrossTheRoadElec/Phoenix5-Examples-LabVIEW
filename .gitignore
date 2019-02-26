@@ -1,4 +1,6 @@
 /FRC SimulatedRSC
+/*/Builds
 *.aliases
 *.lvlps
 *.html
+*.bak
